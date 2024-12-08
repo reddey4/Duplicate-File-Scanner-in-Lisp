@@ -10,9 +10,9 @@ You need a working Lisp environment, such as SBCL (Steel Bank Common Lisp).
 Quicklisp: A package manager for Common Lisp to install libraries like ironclad (for hashing).
 
 # Installing Dependencies
-Install SBCL: If you don’t have it already, download and install SBCL.
+Install SBCL: If you don’t have it already, download and install SBCL from sbcl.org.
 
-Install Quicklisp: Follow the instructions from Quicklisp's website.
+Install Quicklisp: Follow the instructions from Quicklisp's website quicklisp.org/beta/.
 
 
 # Setup
@@ -21,6 +21,8 @@ Open a Lisp REPL like sbcl.
 
 Load the project:
 (load "path-to-your-file/duplicate-file-scanner.lisp")
+
+To test the tool, I provided a folder with test files containing duplicate content and when prompted, point the scanner to the folder path on your system.
 
 
 # Usage
