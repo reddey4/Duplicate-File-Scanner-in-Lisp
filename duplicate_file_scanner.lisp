@@ -55,10 +55,6 @@
     ;; Return the list of duplicates
     duplicates))
 
-;(let ((files (traverse-directory #P"c:/Users/mikej/Documents/UZH/HS24/Seminar/project_testing/")))
-;  (format t "~%Traversal complete. Processing for duplicates...~%")
-;  (find-duplicate-files files))
-
 (defun get-user-path ()
   "Prompt the user for a directory path and validate it."
   (format t "Enter the directory path to scan for duplicates: ")
