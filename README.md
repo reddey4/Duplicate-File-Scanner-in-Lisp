@@ -27,6 +27,7 @@ To test the tool, I provided a folder with test files containing duplicate conte
 
 # Usage
 When running the program, you will be prompted to enter the directory you want to scan for duplicates.
+Watch out to add an "/" or "\" at the end of your path.
 The tool will display any duplicate files it finds.
 After scanning a directory, you can choose to scan another directory or exit the program.
 
@@ -34,7 +35,7 @@ After scanning a directory, you can choose to scan another directory or exit the
 Example run:
 
 Enter the directory path to scan for duplicates:
-> /path/to/directory
+> /path/to/directory/
 
 Traversal complete. Processing for duplicates...
 Duplicate detected
